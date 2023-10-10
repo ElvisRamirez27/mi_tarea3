@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Web</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda Web</h1>
+
+        <!-- Mostrar contactos -->
+        <div class="contacts-section">
+            <h2>Contactos</h2>
+            <ul id="contactList"></ul>
+        </div>
+
+        <!-- Agregar nuevo contacto -->
+        <div class="add-contact-section">
+            <h2>Agregar Nuevo Contacto</h2>
+            <form id="addContactForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" required>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" required>
+                <button type="submit">Agregar Contacto</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
